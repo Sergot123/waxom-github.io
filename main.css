@@ -1,0 +1,255 @@
+
+*{
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+p{
+    line-height: 1.6;
+}
+.button{
+    width: 170px;
+    height: 47px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+}
+.first_item{
+    margin-left: 0;
+}
+.last_item{
+    margin-right: 0;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+}
+#menu_header{
+    margin-top: 70px;
+}
+#logo_header{
+    
+    width: 181px;
+    height: 56px;
+    float: left;
+    background: url("imgs/Waxom.png");
+    margin-left:375px;
+    margin-top: -25px;
+    margin-right:220px;
+    
+}
+#links_header{
+    position: relative;
+    float: left;
+}
+#links_header a{
+    color: #fff;
+    margin-left: 30px;
+}
+#links_header a:hover{
+    color: #c7b299;
+}
+#links_header .first_item{
+    margin-left: 0;
+}
+
+#icons_header{
+    float: right;
+    list-style: none;
+
+}
+#icons_header li{
+    margin-left: 30px;
+    float: right;
+    height: 24px;
+    cursor: pointer;
+
+}
+#icons_header .last_item{
+    margin-right: 200px;
+}
+#search_header{
+    background: url(imgs/icon-search.png);
+    width: 24px;
+}
+
+#bag_header{
+    background: url(imgs/icon-cart.png); 
+    width: 18px;
+}
+#Slider{
+    
+    max-width: 1920px;
+    max-height: 1020px;
+    position: absolute;
+    display:flex;
+    width: 100%;
+    height: 100%;
+    background: url(imgs/bg_slider1.jpg);
+    z-index: -9;
+}
+#text_slide{
+    width: 600px;
+    height: 280px;
+    position: relative;
+    top: 50%;
+    left: 60%;
+    margin: -140px 0 0 -450px;
+    color: #fff;
+}
+#text_slide h1,h2,h3{
+    text-align: center;
+}
+#text_slide h1{
+    font-size: 36px;
+}
+
+#text_slide h2{    font-size:52px;
+}
+#text_slide .get_started_button{
+    position: relative;
+    left: 50%;
+    margin: 50px 0 0 -85px;
+    background-color: #998675;
+    border-bottom: 3px solid #736357;
+    color: #fff;
+}
+#text_slide .get_started_button:hover{
+    background-color: #a19183;
+}
+#content{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    max-width: 1920px;
+    max-height:1020px;
+}
+#content .develepment_info{
+    width: max-content;
+    height: 220px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+.develepment_info div{
+    width: 270px;
+    height: 230px;
+    float: left;
+    background:  url(imgs/mini-border.jpg) no-repeat 50% 100%;
+}
+.develepment_info img{
+    position: relative;
+    width: 49px;
+    left: 50%;
+    margin-left: -24.5px;
+    cursor: pointer;
+}
+.develepment_info h3{
+    text-align: center;
+    margin-top: 26px;
+    font-size: 22px;
+    color: #555555;
+    cursor: pointer;
+}
+.develepment_info p{
+    margin-top: 20px;
+     color: #d1d1d1;
+    text-align: center;
+}
+.develepment_info h3,p{
+    text-align: center;
+}
+.info2,.info3,.info4{
+    margin-left: 30px;
+}
+.info2 img{
+    width: 40px;
+    margin-top: 5px;
+}
+.info2 h3{
+    margin-top: 31px;
+}
+.info3 img{
+    width: 42px;
+}
+.info4 img{
+    width: 56px;
+    height: 37px;
+}
+
+#container2{
+    max-width:1920px;
+    width: 100%;
+    height: 700px;
+    border-top: 1px solid #fbfaf8;
+    background: #fbfaf8 url(imgs/bg_wrapper1.png) no-repeat 50% 100%;
+}
+#container2 h2{
+    text-align: center;
+    font-size: 30px;
+    color: #555555;
+    margin-top: 80px;
+}
+#container2 p{
+    text-align: center;
+    font-size: 16px;
+    color: #c7c7c6;
+    margin: 0 auto;
+}
+#purchase
+{   max-width: 1920px;
+    width: 100%;
+    height: 150px;
+    background: url(imgs/Background.png)
+}
+#purchase .purchase_info{
+    width: 1180px;
+    height: 60px;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    margin-left: -580px;
+}
+.purchase_info div{
+    float: left;
+}
+.purchase_info h2{
+    color: #fff;
+}
+.purchase_info span{
+    color: #c7b299;
+}
+.purchase_info h3{
+    color: #615855;
+    text-align: left;
+}
+.purchase_button{
+    background-color: #998675;
+    border-bottom: 3px solid #736357;
+    color: #fff;
+    float: right;
+    margin-right: 10px;
+}
+.purchase_button:hover{
+    background-color: #a6978a;
+}
+.raleway-medium{
+    font-family:Raleway-Medium , 400;
+}
+.raleway-extrabold{
+    font-family:Raleway-ExtraBold, 800;
+}
+.raleway-semibold{
+    font-family: Releway-Semibold , 500;
+}
+.raleway-regular{
+    font-family: Raleway, Regular;
+}
+.montserrat-regular{
+    font-family: Montserrat, 400;
+}
+.montserrat-light{
+    font-family: Montserrat, Montserrat-Light, 300;
+}
